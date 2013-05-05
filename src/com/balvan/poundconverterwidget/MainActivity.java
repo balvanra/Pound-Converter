@@ -1,18 +1,17 @@
 package com.balvan.poundconverterwidget;
 
-import android.os.Bundle;
 import android.app.Activity;
 import android.content.Context;
+import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.Menu;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.TextView;
 import android.widget.EditText;
 
 public class MainActivity extends Activity {
 
+	// TAG for logger
 	static final String TAG = "PoundConverter.MainActivity";
 
 	TextWatcher watcherPound;
